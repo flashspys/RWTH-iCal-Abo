@@ -3,6 +3,8 @@
 
 Das ist ein kleines Skript, um den Kalender, der in CampusOffice als Datei exportiert werden kann, abonnementfähig zu machen. So kann dein Kalender mögliche Änderungen direkt übernehmen.
 
+> Dieses Skript ist natürlich nicht kommentiert oder getestet !!! Es wurde in 1 1/2 Vorlesungen gecodet !
+
 ##Installation
 
 Benötigt ist ein NodeJS-Server. Zudem erfordert es das Plugin 'needle' welches über npm heruntergeladen werden kann. Zudem ist ein Dienst wie 'forever' (ebenfalls im npm erhältlich) sinnvoll.
