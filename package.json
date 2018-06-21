@@ -2,9 +2,9 @@
   "name": "rwth-ical-abo",
   "version": "0.1.0",
   "description": "Crawl RWTH Campus Office",
-  "main": "server.js",
+  "main": "campus.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node campus.js"
   },
   "repository" : {
     "type" : "git",

@@ -1,12 +1,6 @@
-const https = require("https");
-const fs = require("fs");
+const http = require("http");
 
-const options = {
-	key: fs.readFileSync("/etc/letsencrypt/live/wehnert.me/privkey.pem"),
-	cert: fs.readFileSync("/etc/letsencrypt/live/wehnert.me/fullchain.pem")
-}
-
-server = https.createServer(options, (req, res) => {
+server = http.createServer((req, res) => {
 
 	loginCookies = [];
 	var query = require('url').parse(req.url, true).query;
